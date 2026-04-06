@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ====== APP BASIC STRINGS (MUST HAVE) ====== -->
+    <string name="app_name">JHQ Driver App</string>
+
+    <!-- ====== LOGIN/REGISTER SCREENS ====== -->
+    <string name="login_title">Login</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="login_button">LOGIN</string>
+    <string name="register_button">REGISTER</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="have_account">Already have an account? </string>
+    <string name="signup_link">Sign Up</string>
+    <string name="login_link">Login</string>
+
+    <!-- ====== HOME/DASHBOARD ====== -->
+    <string name="dashboard_title">Driver Dashboard</string>
+    <string name="welcome_message">Good Morning!</string>
+    <string name="trips_label">Trips</string>
+    <string name="hours_label">Hours</string>
+    <string name="rating_label">Rating</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- ====== CHECK-IN ACTIVITY ====== -->
+    <string name="checkin_title">Driver Check-in</string>
+    <string name="status_title">Current Status</string>
+    <string name="checkin_time_label">Check-in Time:</string>
+    <string name="not_checked_in">Not checked in</string>
+    <string name="hours_today_label">Hours Today:</string>
+    <string name="zero_hours">0 hours</string>
+    <string name="hours_format">%s hours</string>
+    <string name="checkin_prompt">Please check-in to start your shift</string>
+    <string name="checkin_button">CHECK IN NOW</string>
+    <string name="checked_in_button">CHECKED IN</string>
+    <string name="checkout_button">CHECK OUT</string>
+    <string name="todays_info">Today\'s Information</string>
+    <string name="schedule_time">8:00 AM - 5:00 PM</string>
+    <string name="default_location">Kuala Lumpur, Malaysia</string>
+    <string name="default_vehicle">Van - ABC 1234</string>
+    <string name="back_button">BACK TO DASHBOARD</string>
+
+    <!-- Dynamic strings with parameters -->
+    <string name="checked_in_success">Checked in at %s</string>
+    <string name="checkout_success">Check-out completed</string>
+
+    <!-- Toast messages -->
+    <string name="checkin_success_toast">Checked in successfully</string>
+    <string name="checkout_success_toast">Checked out successfully</string>
+    <string name="logout_toast">Logging out…</string>
+
+    <!-- ====== MESSAGES/DIALOGS ====== -->
+    <string name="logout_dialog_title">Logout</string>
+    <string name="logout_dialog_message">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit_dialog_title">Exit App</string>
+    <string name="exit_dialog_message">Do you want to logout and exit?</string>
+    <string name="minimize">Minimize</string>
+    <string name="stay">Stay</string>
+
+    <!-- ====== MENU ITEMS ====== -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact Support</string>
+
+    <!-- ====== ERRORS/VALIDATION ====== -->
+    <string name="error_required">This field is required</string>
+    <string name="error_email">Please enter a valid email</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_password_match">Passwords do not match</string>
+
+    <!-- ====== PLACEHOLDERS ====== -->
+    <string name="driver_name_placeholder">Ahmad bin Ali</string>
+    <string name="driver_id_placeholder">ID: DRV-2024-001</string>
+</resources>

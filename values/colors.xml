@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Existing colors -->
+    <color name="primary">#1A237E</color>      <!-- Dark Blue -->
+    <color name="primary_light">#534BAE</color>
+    <color name="primary_dark">#000051</color>
+    <color name="accent">#FF9800</color>       <!-- Orange -->
+    <color name="background">#F5F5F5</color>
+
+    <!-- NEW: Check-in Activity Colors -->
+    <color name="checkin_green">#388E3C</color>      <!-- Material Green 700 -->
+    <color name="checkout_blue">#1976D2</color>      <!-- Material Blue 700 -->
+    <color name="status_red">#D32F2F</color>         <!-- Material Red 700 -->
+    <color name="status_orange">#F57C00</color>      <!-- Material Orange 700 -->
+    <color name="button_grey">#455A64</color>        <!-- Material Blue Grey 700 -->
+
+    <!-- NEW: Text Colors -->
+    <color name="text_primary">#212121</color>       <!-- Almost Black -->
+    <color name="text_secondary">#616161</color>     <!-- Dark Grey -->
+    <color name="text_hint">#9E9E9E</color>          <!-- Medium Grey -->
+    <color name="text_light">#E0E0E0</color>         <!-- Light Grey -->
+
+    <!-- NEW: Card/Background Colors -->
+    <color name="card_background">#FFFFFF</color>    <!-- White -->
+    <color name="success_green">#4CAF50</color>      <!-- Material Green 500 -->
+    <color name="warning_orange">#FF9800</color>     <!-- Material Orange 500 -->
+
+    <color name="orange_light">#FFF3E0</color>
+    <color name="orange_dark">#FF9800</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="green_dark">#4CAF50</color>
+    <color name="red_light">#FFEBEE</color>
+    <color name="red_dark">#F44336</color>
+    <color name="white">#FFFFFF</color>
+</resources>
