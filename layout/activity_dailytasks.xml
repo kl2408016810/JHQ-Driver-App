@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5E6E8"
+    tools:context=".DailyTasksActivity">
+
+    <!-- App Bar - Wine Gradient -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    android:background="@drawable/gradient_red_wine"
+    android:paddingHorizontal="12dp"
+    android:gravity="center_vertical"
+    android:elevation="4dp">
+
+<!-- Back Button -->
+<ImageView
+    android:id="@+id/btnBack"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@android:drawable/ic_menu_revert"
+    app:tint="@android:color/white"
+    android:padding="8dp"
+    android:background="#33FFFFFF"
+    android:contentDescription="Back" />
+
+<!-- Title -->
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Daily Tasks"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:gravity="center" />
+
+<!-- Filter Button -->
+<ImageView
+    android:id="@+id/btnFilter"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@android:drawable/ic_menu_sort_by_size"
+    app:tint="@android:color/white"
+    android:padding="8dp"
+    android:background="#33FFFFFF"
+    android:contentDescription="Filter" />
+</LinearLayout>
+
+    <!-- Stats Cards - Wine Theme -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#FDF1F2"
+    android:elevation="2dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Total Tasks -->
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="8dp">
+
+<TextView
+    android:id="@+id/tvTotalTasks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="10"
+    android:textColor="#722F37"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Total Tasks"
+    android:textColor="#8B4C4F"
+    android:textSize="12sp" />
+</LinearLayout>
+
+    <!-- Completed Tasks -->
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="8dp">
+
+<TextView
+    android:id="@+id/tvCompletedTasks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2"
+    android:textColor="#722F37"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Completed"
+    android:textColor="#8B4C4F"
+    android:textSize="12sp" />
+</LinearLayout>
+
+    <!-- Pending Tasks -->
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="8dp">
+
+<TextView
+    android:id="@+id/tvPendingTasks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="8"
+    android:textColor="#B5A36A"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Pending"
+    android:textColor="#8B4C4F"
+    android:textSize="12sp" />
+</LinearLayout>
+    </LinearLayout>
+
+    <!-- Today's Date - Wine Theme -->
+<TextView
+android:id="@+id/tvTodayDate"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="📅 Today, 18 February 2024"
+android:textColor="#722F37"
+android:textSize="16sp"
+android:textStyle="bold"
+android:layout_marginStart="16dp"
+android:layout_marginTop="8dp"
+android:layout_marginBottom="8dp" />
+
+    <!-- Tasks List -->
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/rvTasks"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:layout_marginTop="4dp"
+android:paddingVertical="4dp" />
+
+    <!-- Mark Complete Button - Keep Green -->
+    <Button
+    android:id="@+id/btnMarkComplete"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:text="MARK AS COMPLETE"
+    android:textAllCaps="true"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:backgroundTint="#4CAF50"
+    android:textColor="@android:color/white"
+    android:layout_margin="12dp"
+    android:elevation="8dp"
+    android:visibility="gone" />
+
+    </LinearLayout>
